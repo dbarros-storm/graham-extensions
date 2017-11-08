@@ -1,0 +1,12 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graham-extensions-client-side-solution",
+    "id": "bcfc7415-71ce-4e97-b9cf-fce4ea93f912",
+    "version": "1.0.0.0",
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/graham-extensions.sppkg"
+  }
+}

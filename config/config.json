@@ -1,0 +1,27 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "revise-document-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/reviseDocument/ReviseDocumentCommandSet.js",
+          "manifest": "./src/extensions/reviseDocument/ReviseDocumentCommandSet.manifest.json"
+        }
+      ]
+    },
+    "share-multi-documents-command-set": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/shareMultiDocuments/ShareMultiDocumentsCommandSet.js",
+          "manifest": "./src/extensions/shareMultiDocuments/ShareMultiDocumentsCommandSet.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ReviseDocumentCommandSetStrings": "lib/extensions/reviseDocument/loc/{locale}.js",
+    "ShareMultiDocumentsCommandSetStrings": "lib/extensions/shareMultiDocuments/loc/{locale}.js"
+  }
+}
